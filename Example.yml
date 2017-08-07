@@ -1,0 +1,35 @@
+Data_dir: Erebus_Data/360
+#if empty, takes files all from data_dir
+Data_files: []
+Neighbor_list: Neighborhoods/SSANeighborList_NW.csv
+Ground_truths: gt_arrivals.dat
+minGtSnr: 1.2
+Trigger_File: EREBUS_STATIC_2.5_TRIGGER_LEVELS.dat
+Arrival_File: EREBUS_STATIC_2.5_ARRIVAL_OUTPUT.dat
+
+Trigger_Level: 2.5
+Reset_Level: 2.5
+
+#Step_Size: 0.03
+Step_Size: 0.0
+
+#In Seconds
+Trigger_Duration: 3
+Reset_Duration: 5
+STA_Window: 1
+LTA_Window: 30
+Time_step: 2
+
+Bandpass_high: 8
+Bandpass_low: 1
+
+#In Hours
+Start: 0
+Score_delay: 4
+Duration: 24
+
+Dynamic_Agree: 0
+#Dynamic_Agree: 3
+Score_Agree: 1
+
+Quiet: 1
